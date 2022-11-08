@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="12April" max_length="40" name="x_64306_ashish_stu_12april" sizeclass="4" type="collection">
+        <element label="completed date" max_length="40" name="completed_date" type="glide_date_time"/>
+        <element label="Created date" max_length="40" name="created_date" type="glide_date_time"/>
+        <element label="difference" max_length="40" name="difference" type="string"/>
+        <element label="downtime" max_length="40" name="downtime" type="glide_date_time"/>
+        <element label="duration" max_length="40" name="duration" type="glide_duration"/>
+    </element>
+</database>

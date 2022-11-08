@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_64306_ashish_stu_12april</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>running 1</p>]]></message>
+        <name>Duration calc1</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+// 	var diffTime = gs.dateDiff(current.created_date.getDisplayValue(), current.completed_date.getDisplayValue(), false);
+// 	current.downtime = diffTime;
+	
+	
+// var gdt1 = GlideDateTime('2015-07-23 18:58:00');
+// var gdt2 = GlideDateTime('2015-07-24 19:01:00');
+	var gdt1 = GlideDateTime(current.created_date.getDisplayValue());
+    var gdt2 = GlideDateTime(current.completed_date.getDisplayValue());
+	var dur = GlideDateTime.subtract(gdt1, gdt2); 
+	current.downtime = dur;
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 16:43:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>269bc7862f29d410de185ff62799b6ba</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Duration calc1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ashish Studio" source="x_64306_ashish_stu">680b438ddbb0b700baf4f6fdbf961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ashish Studio">680b438ddbb0b700baf4f6fdbf961996</sys_scope>
+        <sys_update_name>sys_script_269bc7862f29d410de185ff62799b6ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 16:55:20</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=269bc7862f29d410de185ff62799b6ba"/>
+</record_update>

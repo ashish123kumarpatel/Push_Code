@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="duration" label="Duration" language="en" table="x_64306_ashish_stu_12april">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>duration</element>
+            <help/>
+            <hint/>
+            <label>Duration</label>
+            <language>en</language>
+            <name>x_64306_ashish_stu_12april</name>
+            <plural>Durations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-23 16:30:18</sys_created_on>
+            <sys_id>0b1947062f29d410de185ff62799b635</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Duration</sys_name>
+            <sys_package display_value="Ashish Studio" source="x_64306_ashish_stu">680b438ddbb0b700baf4f6fdbf961996</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ashish Studio">680b438ddbb0b700baf4f6fdbf961996</sys_scope>
+            <sys_update_name>sys_documentation_x_64306_ashish_stu_12april_duration_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-23 16:30:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
